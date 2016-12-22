@@ -1,7 +1,7 @@
 #include <Wire.h>
 
 // Gripper fan project for Grabit
-/
+/*
 * This program controls 12 fans to provide suction force to grip lightweight objects.
 * The fans are driven with transistors soldered onto an Arduino motor shield. This 
 * program takes user input through serial port, to toggle the fans being on/off
@@ -11,7 +11,7 @@
 * f8191       // 'f' to toggle fans on/off, 0-8191 for 12 fan bits 
 * p255        // 'p' to adjust power, 0-255 to adjust voltage
 *
-/
+*/
 
 // Global variables
 boolean fan_switch[13];
